@@ -90,7 +90,23 @@
   border-top: none;
   border-right: none;
 }
+.c-label {
+  width: 50%;
+  height: 100px;
+  background-color: #fef200;
+  position: relative;
+  border: solid;
+  bottom: 222px;
+  left: 46px;
+  border-radius: 50%;
+}
 h1 {
-  color: #0f74bf;
   text-align: center;
+}
+.wlabel {
+  color: #0f74bf;
+}
+.clabel {
+  color: #ffffff;
+  -webkit-text-stroke: 1px #0f74bf;
 }
