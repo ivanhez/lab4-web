@@ -13,6 +13,16 @@
   border: solid;
   border-top: outset;
 }
+.bottle-body:hover {
+  width: 100%;
+  height: 350px;
+  background-color: #dadada;
+  border-radius: 35px;
+  position: relative;
+  border: solid;
+  border-top: outset;
+  transition: background-color 1000ms linear;
+}
 .bottle-stem {
   width: 83%;
   height: 130px;
@@ -25,13 +35,26 @@
   bottom: 65px;
   z-index: -1;
 }
+.bottle-stem:hover {
+  width: 83%;
+  height: 130px;
+  background-color: #dadada;
+  border-radius: 45px;
+  position: relative;
+  border: solid;
+  border-bottom-style: inset;
+  left: 14px;
+  bottom: 65px;
+  z-index: -1;
+  transition: background-color 1000ms linear;
+}
 .bottle-neck {
   width: 50%;
   height: 57px;
   background-color: #dadada;
   border-radius: 25px;
   position: relative;
-  bottom: 250px;
+  bottom: 55px;
   left: 24%;
   border: solid;
   border-bottom-style: inset;
@@ -51,7 +74,7 @@
   background-color: #ffffff;
   position: relative;
   border: solid;
-  bottom: 150px;
+  bottom: 100px;
   border-left: none;
   border-bottom: none;
   border-right: none;
@@ -62,7 +85,7 @@
   background-color: #0f74bf;
   position: relative;
   border: solid;
-  bottom: 150px;
+  bottom: 100px;
   border-left: none;
   border-top: none;
   border-right: none;
