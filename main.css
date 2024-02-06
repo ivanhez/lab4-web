@@ -2,6 +2,7 @@
   position: relative;
   width: 200px;
   margin: 20em;
+  display: flex;
 }
 .bottle-body {
   width: 100%;
@@ -30,8 +31,8 @@
   background-color: #dadada;
   border-radius: 25px;
   position: relative;
-  bottom: 470px;
-  left: 25%;
+  bottom: 250px;
+  left: 24%;
   border: solid;
   border-bottom-style: inset;
 }
@@ -43,4 +44,30 @@
   position: relative;
   border: solid;
   bottom: 18px;
+}
+.white-label {
+  width: 100%;
+  height: 90px;
+  background-color: #ffffff;
+  position: relative;
+  border: solid;
+  bottom: 150px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+.blue-label {
+  width: 100%;
+  height: 100px;
+  background-color: #0f74bf;
+  position: relative;
+  border: solid;
+  bottom: 150px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+h1 {
+  color: #0f74bf;
+  text-align: center;
 }
